@@ -8,6 +8,11 @@ nav {
   align-items: center;
 }
 
+#nav-title {
+  color: #0e0e0e;
+  font-size: 18px;
+}
+
 #sign-in-button {
   padding: 8px 16px;
   border-radius: 5px;

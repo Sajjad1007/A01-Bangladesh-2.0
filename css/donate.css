@@ -1,0 +1,40 @@
+#donate {
+  padding: 0px 100px 40px;
+  text-align: center;
+}
+
+#taka-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto 20px;
+}
+
+.taka {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 22.5%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 22px;
+  font-weight: 650;
+}
+
+.taka:hover {
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+#donate-input {
+  width: 93%;
+  height: 36px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  font-size: 11px;
+  color: rgba(14, 14, 14);
+  text-align: center;
+  margin-bottom: 20px;
+}
