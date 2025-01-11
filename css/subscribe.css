@@ -1,0 +1,36 @@
+#subscribe {
+  padding: 44px;
+  text-align: center;
+  background-color: #c6e4d6;
+  border-radius: 10px;
+}
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 120px 13px;
+}
+
+#input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+#subscribe-input {
+  width: 380px;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+#subscribe-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

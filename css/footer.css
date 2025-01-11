@@ -1,0 +1,31 @@
+footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 28px;
+}
+
+footer > a {
+  color: #0e0e0e;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+#footer-title {
+  color: #0e0e0e;
+  font-size: 18px;
+}
+
+#footer-hr {
+  opacity: 0.3;
+  width: 76%;
+  margin: 0 auto;
+}
+
+#social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 18px;
+}
