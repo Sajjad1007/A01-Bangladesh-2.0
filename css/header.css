@@ -1,0 +1,49 @@
+#main-header {
+  padding: 18px 80px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sign-in-button {
+  padding: 8px 16px;
+  border-color: #006a50;
+  border-radius: 5px;
+  border-width: 1px;
+  font-weight: 450;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+#sign-in-button:hover {
+  color: #006a50;
+  background-color: #e3e3ec;
+}
+
+#banner {
+  margin-top: 24px;
+  padding: 48px 31px;
+  background-color: #c6e4d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  gap: 25px;
+}
+
+#banner-subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 14px;
+  font-weight: 520;
+}
+
+#banner-title {
+  margin: 10px 0 13px;
+}
+
+#banner img {
+  width: 300px;
+}
