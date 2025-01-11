@@ -59,3 +59,28 @@
 #modern-infrastructure-button:hover {
   background-color: #ffa425;
 }
+
+blockquote::before {
+  content: '';
+  background: url('../assets/quote-bg.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+blockquote {
+  background-color: #fff;
+  margin-top: 18px;
+  padding: 25px 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#quote-author {
+  color: rgba(14, 14, 14, 0.7);
+  margin: 10px 0 5px;
+  font-size: 13px;
+  font-weight: 700;
+}
