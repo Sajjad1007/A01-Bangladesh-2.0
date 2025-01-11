@@ -7,28 +7,143 @@
   <title>New Bangladesh</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/pillars.css">
+  <link rel="stylesheet" href="css/vision.css">
+  <link rel="stylesheet" href="css/opinion.css">
 </head>
 
-<body class="bg-color">
-  <header id="main-header">
-    <nav id="navbar">
+<body>
+  <!------------------------------ Header ------------------------------>
+  <header>
+    <!------------------------------ Navbar ------------------------------>
+    <nav>
       <h3 class="primary-color">Bangladesh 2.0</h3>
-      <button type="button" id="sign-in-button" class="button-color bg-color">Sign In</button>
+      <button type="button" id="sign-in-button">Sign In</button>
     </nav>
-
+    <!------------------------------ Banner ------------------------------>
     <div id="banner">
-      <div id="banner-content">
-        <h5 id="banner-subtitle">Bangladesh 2.0</h5>
+      <div>
+        <h4 id="banner-subtitle">Bangladesh 2.0</h4>
         <h1 id="banner-title">Idea , innovation ,
           vision and challenges in New Bangladesh.</h1>
         <button type="button" class="primary-button">Explore New Bangladesh</button>
       </div>
-      <img src="assets/hero.png" alt="National Memorial">
+      <img src="assets/hero.png" alt="National Memorial" width="300px">
     </div>
   </header>
 
+  <!------------------------------ Main Content ------------------------------>
   <main>
-
+    <!------------------------------ Pillars of Bangladesh ------------------------------>
+    <section>
+      <h2 class="section-title">Pillars of "Bangladesh 2.0"</h2>
+      <!------------------------------ Pillars ------------------------------>
+      <div id="pillar-container">
+        <div class="pillar">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="pillar-title">Innovation</h4>
+          <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+        </div>
+        <div class="pillar">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="pillar-title">Sustainability</h4>
+          <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+        </div>
+        <div class="pillar">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="pillar-title">Infrastructure</h4>
+          <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+        </div>
+        <div class="pillar">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="pillar-title">Empowerment</h4>
+          <p class="description">Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos </p>
+        </div>
+      </div>
+    </section>
+    <!------------------------------ Vision of Future ------------------------------>
+    <section>
+      <h2 class="section-title">The Vision of Future</h2>
+      <p class="description">
+        Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting
+        inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and
+        robust infrastructure, the country is set to become a global model of development.
+      </p>
+      <!------------------------------ Visions ------------------------------>
+      <div id="vision-container">
+        <div id="digital-transformation" class="vision">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="vision-title">Digital Transformation</h4>
+          <p class="description" style="margin-bottom: 15px;">Creating a nationwide digital ecosystem to enhance
+            connectivity and access to services for all citizens.</p>
+          <button type="submit" id="digital-transformation-button" class="primary-button">Learn More</button>
+        </div>
+        <div id="green-energy" class="vision">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="vision-title">Green Energy</h4>
+          <p class="description" style="margin-bottom: 15px;">Investments in solar and wind energy to ensure a
+            sustainable and eco-friendly future.</p>
+          <button type="submit" class="primary-button">Learn More</button>
+        </div>
+        <div id="modern-infrastructure" class="vision">
+          <img src="assets/card-icon.png" alt="Bulb" width="36px">
+          <h4 class="vision-title">Modern Infrastructure</h4>
+          <p class="description" style="margin-bottom: 15px;">Building state-of-the-art infrastructure to support
+            economic growth and global competitiveness.</p>
+          <button type="submit" id="modern-infrastructure-button" class="primary-button">Learn More</button>
+        </div>
+      </div>
+    </section>
+    <!------------------------------ Opinion Matters ------------------------------>
+    <section>
+      <h2 class="section-title">Your Opinion Matters</h2>
+      <!------------------------------ Opinion Table ------------------------------>
+      <div id="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th class="col-1 table-title">Questions</th>
+              <th class="table-title" style="padding-left: 0;">Select Your Opinion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="col-1">
+              <td class="question description">Do you believe Bangladesh is on the right path toward
+                becoming a developed nation?
+              </td>
+              <td class="select-data">
+                <select>
+                  <option>Yes, I agree</option>
+                  <option>No, I don't</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="col-1">
+              <td class="question description primary-color">Do you believe Bangladesh is on the right path toward
+                becoming a developed nation?
+              </td>
+              <td class="select-data">
+                <select>
+                  <option>Yes, I agree</option>
+                  <option>No, I don't</option>
+                </select>
+              </td>
+            </tr>
+            <tr class="question col-1">
+              <td class="question primary-color description">Do you believe Bangladesh is on the right path toward
+                becoming a developed nation?
+              </td>
+              <td class="select-data">
+                <select>
+                  <option>Yes, I agree</option>
+                  <option>No, I don't</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </main>
 
   <footer>

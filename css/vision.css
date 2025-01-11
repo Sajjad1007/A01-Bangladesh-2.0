@@ -1,0 +1,61 @@
+#vision-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.vision {
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 32%;
+}
+
+.vision-title {
+  margin: 14px 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+#digital-transformation {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+#digital-transformation:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#digital-transformation-button {
+  background-color: #5490f5;
+}
+
+#digital-transformation-button:hover {
+  background-color: #3669b0;
+}
+
+#green-energy {
+  background-color: rgba(115, 218, 112, 0.2);
+}
+
+#green-energy:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#modern-infrastructure {
+  background-color: rgba(255, 194, 57, 0.2);
+}
+
+#modern-infrastructure:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#modern-infrastructure-button {
+  background-color: #ffc239;
+}
+
+#modern-infrastructure-button:hover {
+  background-color: #ffa425;
+}

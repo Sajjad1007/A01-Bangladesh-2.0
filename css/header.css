@@ -1,8 +1,8 @@
-#main-header {
-  padding: 18px 80px;
+header {
+  padding: 18px 80px 40px;
 }
 
-#navbar {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,17 +10,18 @@
 
 #sign-in-button {
   padding: 8px 16px;
-  border-color: #006a50;
   border-radius: 5px;
-  border-width: 1px;
+  border: 1px solid #006a50;
+  color: #006a50;
   font-weight: 450;
   font-size: 11px;
   cursor: pointer;
+  background-color: #f1f1f3;
 }
 
 #sign-in-button:hover {
   color: #006a50;
-  background-color: #e3e3ec;
+  background-color: #fff;
 }
 
 #banner {
@@ -42,8 +43,5 @@
 
 #banner-title {
   margin: 10px 0 13px;
-}
-
-#banner img {
-  width: 300px;
+  color: rgb(14, 14, 14);
 }

@@ -7,16 +7,8 @@
   font-family: "Fira Sans", serif;
 }
 
-.primary-color {
-  color: #0E0E0E;
-}
-
-.button-color {
-  color: #006A50;
-}
-
-.bg-color {
-  background-color: #F1F1F3;
+body {
+  background-color: #f1f1f3;
 }
 
 .primary-button {
@@ -32,4 +24,21 @@
 
 .primary-button:hover {
   background-color: #004a3d;
+}
+
+section {
+  padding: 0px 80px 40px;
+}
+
+.section-title {
+  color: #0e0e0e;
+  font-size: 24px;
+  font-weight: 650;
+  margin-bottom: 18px;
+}
+
+.description {
+  font-size: 10px;
+  line-height: 14px;
+  color: rgba(14, 14, 14, 0.6);
 }

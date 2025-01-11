@@ -1,0 +1,24 @@
+#pillar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.pillar {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.pillar:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
+.pillar-title {
+  margin: 14px 0 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}

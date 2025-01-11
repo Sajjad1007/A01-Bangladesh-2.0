@@ -1,0 +1,59 @@
+#table-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+table {
+  border: 1px solid #d5d6d8;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #c6e4d6;
+}
+
+.col-1 {
+  width: 80%;
+}
+
+.table-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(14, 14, 14);
+  text-align: left;
+  padding: 16px;
+}
+
+.question {
+  padding: 20px 16px;
+  font-size: 10px;
+  color: rgba(14, 14, 14);
+  font-weight: 500;
+  border: 1px solid #d5d6d8;
+}
+
+.select-data {
+  text-align: center;
+  border: 1px solid #d5d6d8;
+}
+
+select {
+  background-color: #c6e4d6;
+  border-radius: 3px;
+  padding: 6px 10px 6px 14px;
+  font-size: 10px;
+  border: 1px, solid rgba(14, 14, 14);
+  font-weight: 500;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+option {
+  font-size: 10px;
+  color: rgba(14, 14, 14);
+  font-weight: 500;
+}
